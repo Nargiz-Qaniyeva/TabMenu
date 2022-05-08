@@ -1,18 +1,16 @@
 .tab {
-    overflow: hidden;
     border: 1px solid rgb(21, 120, 156);
     background-color: #84b9cf;
+    overflow: auto;
   }
   
   .tab button {
     background-color: inherit;
-    float: left;
     border: none;
-    outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 15px 20px;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 20px;
   }
   
   .tab button:hover {
@@ -29,4 +27,5 @@
     border: 1px solid rgb(9, 55, 148);
     background-color: rgb(206, 232, 242);
     border-top: none;
+    font-size: 18px;
   }
